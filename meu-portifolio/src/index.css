@@ -1,3 +1,28 @@
 @tailwind base;
+@layer base{
+    body{
+        background-color: #A68A56; 
+        color: whitesmoke;
+    }
+}
+
 @tailwind components;
+
+@layer components {
+    .link-menu{
+        @apply hover:underline decoration-2 focus:underline text-gray-100 font-bold decoration-mytheme-200 underline-offset-2;
+    }
+}
 @tailwind utilities;
+
+/* Color Theme Swatches in Hex 
+.UI/UX-1-hex { color: #0583F2; Azul Água}
+.UI/UX-2-hex { color: #023E73; Azul Escuro }
+.UI/UX-3-hex { color: #04B2D9; Azul Vibrante}
+.UI/UX-4-hex { color: #013440; Verde}
+.UI/UX-5-hex { color: #A68A56; Bege}
+
+Fontes: Helvetica, sans-serif e Palatino, URW Palladio L, serif
+
+*/
+

@@ -4,7 +4,7 @@ const MyProjects = () => {
     return (
         <div className="mb-5">
             <h2 className="text-center m-5 text-lg">Abaixo você pode conferir os meus projetos</h2>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap mt-10 mb-10">
 
                 <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
                     <figure>
@@ -60,23 +60,6 @@ const MyProjects = () => {
                 </div>
                 </div>
 
-                <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
-                    <figure>
-                    <Link target="_blank" to="https://github.com/Andr-Vinicius/ProjetoOmnimed">
-                        <img className="cursor-pointer" src="/banner_apifilmes.png" alt="Omnimed" />
-                    </Link>
-                    </figure>
-                <div class="card-body">
-                <h2 class="card-title">
-                    Pokedex
-                </h2>
-                <p>Listagem de pokemons</p>
-                <div class="card-actions justify-end">
-                    <div class="badge badge-outline">PHP</div>
-                    <div class="badge badge-outline">JavaScript</div>
-                </div>
-                </div>
-                </div>
                 <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
                     <figure>
                     <Link target="_blank" to="https://github.com/Andr-Vinicius/TCC">
@@ -136,6 +119,40 @@ const MyProjects = () => {
                 <div class="card-body">
                 <h2 class="card-title">
                     Lista de Tarefas
+                </h2>
+                <p>Uma lista de tarefas básica com um CRUD pelo localStorage</p>
+                <div class="card-actions justify-end">
+                    <div class="badge badge-outline">React</div>
+                </div>
+                </div>
+                </div>
+
+                <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
+                    <figure>
+                    <Link target="_blank" to="https://github.com/Andr-Vinicius/Lista_Tarefas">
+                        <img className="cursor-pointer" src="/projetos/banner_organo.png" alt="Organograma" />
+                    </Link>
+                    </figure>
+                <div class="card-body">
+                <h2 class="card-title">
+                    Organograma
+                </h2>
+                <p>Uma lista de tarefas básica com um CRUD pelo localStorage</p>
+                <div class="card-actions justify-end">
+                    <div class="badge badge-outline">React</div>
+                </div>
+                </div>
+                </div>
+
+                <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
+                    <figure>
+                    <Link target="_blank" to="https://github.com/Andr-Vinicius/Lista_Tarefas">
+                        <img className="cursor-pointer" src="/projetos/banner_newsletter.png" alt="Organograma" />
+                    </Link>
+                    </figure>
+                <div class="card-body">
+                <h2 class="card-title">
+                    Newsletter
                 </h2>
                 <p>Uma lista de tarefas básica com um CRUD pelo localStorage</p>
                 <div class="card-actions justify-end">

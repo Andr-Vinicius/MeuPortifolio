@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
-        <header className="bg-mytheme-100 grid grid-cols-2 gap-5 p-2 shadow-sm shadow-mytheme-200">
+        <header className="bg-mytheme-100 grid grid-cols-2 gap-5 p-2 mb-10 shadow-sm shadow-mytheme-200">
             <div className="ml-10 p-2 flex justify-start items-center gap-5">
                 <img className="w-24" src="/computador.jpg" alt="Imagem de um computador"></img>
                 <h2 className=" text-gray-100 text-2xl font-bold">Meu portifólio</h2>

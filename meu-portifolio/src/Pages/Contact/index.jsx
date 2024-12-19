@@ -37,13 +37,13 @@ const Contact = () => {
     }
 
     return (
-        <div className="text-center m-5">
+        <div className="text-center m-5 mb-20">
             <h1>Contato</h1>
             <form className="flex flex-col p-5 gap-5 justify-center items-center" onSubmit={sendEmail}>
                 <input className="input w-2/4" type="text" placeholder="Digite seu nome" value={name} onChange={(e) => setName(e.target.value)}/>
                 <input className="input w-2/4" type="email" placeholder="Digite seu email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 <textarea className="textarea w-2/4" placeholder="Digite sua mensagem..." value={message} onChange={(e) => setMessage(e.target.value)}/>
-                <button className="bg-mytheme-200 rounded-full p-3">Enviar</button>
+                <button className="bg-mytheme-200 rounded-full p-3 mb-20 hover:bg-mytheme-100">Enviar</button>
             </form>
         </div>
     )

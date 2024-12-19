@@ -33,13 +33,13 @@ const AboutMe = () => {
             <div className="flex justify-around items-center">
                 <p  className="text-lg w-2/4">Sou basicamente um nerd raiz, sempre gostei bastante de animes e jogos, apesar de não ter muito tempo atualmente pra ambos.
                 Minha obra favorita é One Piece e sou um grande entusiasta de histórias medievais. Um lazer recente que eu adquiri é ir na academia, o fisíco complementa o mental sempre.
-                Além disso, eu também amo sair com a minha namorada, e o nosso principal rolê é o eletrotico.</p>
-                <img className="w-4/12 rounded-md shadow-sm shadow-black" src="/estante.jpeg" alt="Estante com mangás"/>
+                Além disso, eu também amo sair com a minha namorada, e o nosso principal rolê são festas eletrônicas.</p>
+                <img className="w-3/12 rounded-md shadow-sm shadow-black" src="/estante.jpeg" alt="Estante com mangás"/>
             </div>
 
             <h2 className="text-2xl font-bold text-center">Minhas habilidade</h2>
             <h3 className="text-xl list-item">Hard-Skills</h3>
-            <div className="flex gap-4 justify-around items-center">
+            <div className="flex flex-wrap justify-around items-center">
                 <div class="avatar">
                     <div class=" ring-black ring-offset-base-100 w-20 rounded-full ring ring-offset-0">
                         <img src="/logos/logo_JS.png" />
@@ -62,7 +62,7 @@ const AboutMe = () => {
                 </div>
                 <div class="avatar">
                     <div class="ring-black ring-offset-base-100 w-20 rounded-full ring ring-offset-0">
-                        <img src="/logos/logo_node.png" />
+                        <img className="bg-white" src="/logos/logo_node.jpg" />
                     </div>
                 </div>
                 <div class="avatar">
@@ -72,7 +72,7 @@ const AboutMe = () => {
                 </div>
                 <div class="avatar">
                     <div class="ring-black ring-offset-base-100 w-20 rounded-full ring ring-offset-0">
-                        <img className="bg-white" src="/logos/logo_SQL.png" />
+                        <img className="bg-white" src="/logos/logo_SQL.jpg" />
                     </div>
                 </div>
                 <div class="avatar">

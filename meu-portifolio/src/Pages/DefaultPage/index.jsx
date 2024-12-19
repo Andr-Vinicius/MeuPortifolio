@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { TbFileCv } from "react-icons/tb"
 
 const DefaultPage = () =>{
     return (
@@ -10,6 +11,9 @@ const DefaultPage = () =>{
                 com o foco maior em Font-End.</p>
                 <Link to="/sobremim">
                     <button className="btn mb-10 -mt-15 hover:bg-mytheme-100 bg-mytheme-200 text-gray-100 rounded-full h-12 p-2">Saiba mais</button>
+                </Link>
+                <Link to="https://drive.usercontent.google.com/u/2/uc?id=1szS-KW0kejhlJAXdV3xL-ovi4VYAQfkn&export=download">
+                    <TbFileCv className="flex-nowrap" size={32} style={{color: '#058'}}/>
                 </Link>
             </div>
         </div>

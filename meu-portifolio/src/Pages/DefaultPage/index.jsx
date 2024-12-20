@@ -4,7 +4,7 @@ import { TbFileCv } from "react-icons/tb"
 const DefaultPage = () =>{
     return (
         <div className="flex gap-5 m-20">
-            <img className="shadow-sm h-screen shadow-black rounded-full" src="/foto-perfil.jpg" alt="foto de perfil"></img>
+            <img className="hidden md:block shadow-sm h-screen shadow-black rounded-full" src="/foto-perfil.jpg" alt="foto de perfil"></img>
             <div className="flex flex-col justify-center items-center">
                 <p className=" p-5 text-gray-100 text-xl">Olá, bem vindo (a) ao meu singelo portifólio. 
                 Me chamo Vinicius e sou um Cientista da Computação recém graduado e venho tentando me aprimorar cada vez mais como desenvolvedor, 

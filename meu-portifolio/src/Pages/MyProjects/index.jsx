@@ -4,7 +4,7 @@ const MyProjects = () => {
     return (
         <div className="mb-5">
             <h2 className="text-center m-5 text-lg">Abaixo você pode conferir os meus projetos</h2>
-            <div className="flex flex-wrap mt-10 mb-10">
+            <div className="flex flex-wrap justify-center mt-10 mb-10">
 
                 <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
                     <figure>
@@ -26,7 +26,7 @@ const MyProjects = () => {
                 
                 <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
                     <figure>
-                    <Link target="_blank" to="https://github.com/Andr-Vinicius/ProjetoOmnimed">
+                    <Link target="_blank" to="https://github.com/Andr-Vinicius/Projeto_Agenda">
                         <img className="cursor-pointer" src="/banner_agenda.jpg" alt="Omnimed" />
                     </Link>
                     </figure>
@@ -44,7 +44,7 @@ const MyProjects = () => {
 
                 <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
                     <figure>
-                    <Link target="_blank" to="https://github.com/Andr-Vinicius/ProjetoOmnimed">
+                    <Link target="_blank" to="https://github.com/Andr-Vinicius/API_MOVIES">
                         <img className="cursor-pointer" src="/banner_apifilmes.png" alt="Omnimed" />
                     </Link>
                     </figure>
@@ -129,7 +129,7 @@ const MyProjects = () => {
 
                 <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
                     <figure>
-                    <Link target="_blank" to="https://github.com/Andr-Vinicius/Lista_Tarefas">
+                    <Link target="_blank" to="https://github.com/Andr-Vinicius/OrganoProject">
                         <img className="cursor-pointer" src="/projetos/banner_organo.png" alt="Organograma" />
                     </Link>
                     </figure>
@@ -146,7 +146,7 @@ const MyProjects = () => {
 
                 <div class="card bg-mytheme-200 w-80 shadow-xl m-5">
                     <figure>
-                    <Link target="_blank" to="https://github.com/Andr-Vinicius/Lista_Tarefas">
+                    <Link target="_blank" to="https://github.com/Andr-Vinicius/AprendendoTailwind">
                         <img className="cursor-pointer" src="/projetos/banner_newsletter.png" alt="Organograma" />
                     </Link>
                     </figure>
